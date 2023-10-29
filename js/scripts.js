@@ -12,4 +12,4 @@ const g = prompt("Enter a gallon:");
 const l = prompt("Enter a liter:");
 
 window.alert("gallon to liter: " + gallonToliter(g) + ".\n" +
-    "liter to gallon: " + literTogallon(l) + ".");
+    "liter to gallon: " + literTogallon(l).toFixed(3) + ".");
